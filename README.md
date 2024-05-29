@@ -12,6 +12,9 @@ biopython                 1.81
 h5py                      3.8.0
 numpy                     1.21.6
 pandas                    1.3.5
+tqdm                      4.66.1
+matplotlib                3.5.3
+seaborn                   0.12.2
 ```
 ### 2. References
 [1]Hanson, J., et al., Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 2019. 35(14): p. 2403-2410.
