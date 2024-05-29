@@ -266,9 +266,9 @@ def train(epoch1,epochs,train_X0,train_X1,train_X2,train_Y1,train_Y2,valid_X0,va
             loss_epoch=loss_epoch+loss.item()
             loss1_epoch=loss1_epoch+loss1.item()
             loss2_epoch=loss2_epoch+loss2.item()
-            optim.zero_grad()  # 优化器1的梯度清零
+            optim.zero_grad()
             loss.backward()
-            optim.step()  # 更新整体的网络参数
+            optim.step()
         loss_epoch=loss_epoch/len(X1_shuffle)
         loss1_epoch=loss1_epoch/len(X1_shuffle)
         loss2_epoch=loss2_epoch/len(X1_shuffle)
