@@ -288,15 +288,13 @@ def train(epoch1,epochs,train_X0,train_X1,train_X2,train_Y1,train_Y2,valid_X0,va
             print("Early stopping")
             break
 
-#读取数据
 print('Reading training & validation datasets')
 SPOT_1D_Train = h5py.File(r"../datasets/SPOT_1D_Train.h5", "r")
 SPOT_1D_Valid = h5py.File(r"../datasets/SPOT_1D_Valid.h5", "r")
 Test2016 = h5py.File(r"../datasets/Test2016.h5", "r")
 Test2018 = h5py.File(r"../datasets/Test2018.h5", "r")
 ss_dic={'G':0,'H':1,'I':2,'T':3,'E':4,'B':5,'S':6,'L':7,'X':8}
-#每条数据集中包含的序列数目
-batchsize=32#批量大小
+batchsize=32
 n_SPOT_1D_Train=10029
 n_SPOT_1D_Valid=983
 n_Test2016=1213
