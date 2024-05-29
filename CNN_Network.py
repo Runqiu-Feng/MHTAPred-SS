@@ -46,7 +46,8 @@ class CNN(nn.Module):
         scale3_result=self.LeakyReLU(scale3_result)
         muti_result=torch.cat([scale1_result,scale2_result,scale3_result],1)#(B,3*C,w,l)
         return muti_result,esm_result
-   
+
+#Attention mechanism
 class Attention(nn.Module):
     def __init__(self,in_planes,K):
         super(Attention,self).__init__()
@@ -58,7 +59,7 @@ class Attention(nn.Module):
         att=self.avgpool(x) #(bs,c,1)
         att=self.net(att).view(x.shape[0],-1)#(bs,K)
         return self.Softmax(att)
-
+#Residual DYConv1D block
 class Res_DYConv1d_block(nn.Module):
     def __init__(self,in_planes,out_planes,kernel_size,stride,dilation,K):
         super(Res_DYConv1d_block,self).__init__()
@@ -91,7 +92,8 @@ class Res_DYConv1d_block(nn.Module):
             output=self.LeakyReLU(output+self.res(input))
         else:output=self.LeakyReLU(output+input)
         return output
-
+        
+#DY-CNN
 class DYConv1d(nn.Module):
     def __init__(self,in_planes,out_planes,kernel_size,dilation,K):
         super(DYConv1d,self).__init__()
