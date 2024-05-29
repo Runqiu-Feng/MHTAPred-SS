@@ -3,7 +3,14 @@
 Protein secondary structure prediction is valuable for understanding protein functions and biopharmaceuticals. Existing prediction methods mainly used monotonous sequence encoding techniques, and did not use labels related to secondary structure, resulting in extremely limited prediction performance. In this study, we propose a multi-task learning method based on strong targeted autoencoder to solve the above problems. The strong targeted autoencoder uses the attention mechanism in sample dimension to generate the strong targeted encoding feature for each sequence. Our proposed protein secondary structure prediction model based on multi-task learning can capture global and multi-scale local features of sequences, and by using the multi-gate mixture-of-experts structure in the protein secondary structure prediction field for the first time, effective exchange of information between tasks is implemented. In addition, we demonstrate the necessity of model components, the validity of strong targeted encoding, and the advancement of multi-task learning strategy experimentally. The experimental results on six independent test sets show that our method achieves state-of-the-art prediction performance, and it also has certain advantages in single category secondary structure prediction, boundary secondary structure prediction and secondary structure segment distribution prediction. We provide a new idea for protein sequence encoding in the protein secondary structure prediction field, and our method can extract sequence features more fully through the exchange of information between multiple tasks, and contribute to subsequent tasks such as protein tertiary structure prediction and interaction prediction.
 ### 2. Dependency
 ```
-123
+python                    3.7.13
+torch                     1.13.1
+torchaudio                0.13.1
+torchvision               0.14.1
+biopython                 1.81
+h5py                      3.8.0
+numpy                     1.21.6
+pandas                    1.3.5
 ```
 ### 2. References
 [1]Hanson, J., et al., Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 2019. 35(14): p. 2403-2410.
