@@ -24,7 +24,10 @@ Install all dependencies that meet the required versions.
 #### Step 3
 Use the following commands to train and test our proposed protein secondary result prediction model.
 ```
-python Q3_P.py
+python 3_state_PISCES.py
+python 8_state_PISCES.py
+python 3_state_SPOT_1D.py
+python 8_state_SPOT_1D.py
 ```
 ### 4. References
 [1]Hanson, J., et al., Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 2019. 35(14): p. 2403-2410.
