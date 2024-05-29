@@ -166,7 +166,7 @@ def test(test_X0,test_X1,test_X2,test_Y1,test_Y2,model_PSSP,loss_function):
         loss1=0
         loss2=0
         ss2num_dic={0:'G',1:'H',2:'I',3:'T',4:'E',5:'B',6:'S',7:'L'}
-        with open('/home/2023/23frq/paper1/Train_Test/sov_Q8.txt', 'w') as f:
+        with open('sov_Q8.txt', 'w') as f:
             no_rasa_num=0
             for i in tqdm(range(len(test_X1))):
                 inputs_onehot=test_X0[i][None].to(torch.float).to(device)
