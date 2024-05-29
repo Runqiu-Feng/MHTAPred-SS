@@ -113,4 +113,3 @@ with h5py.File(r"SPOT_1D_Valid.h5", "a") as f1:
             else:RASA.append(1)
         if len(seq)!=len(RASA):
             print(id,i)
-        # f1.create_dataset('RASA'+id, data=RASA)
