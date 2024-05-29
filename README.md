@@ -16,7 +16,17 @@ tqdm                      4.66.1
 matplotlib                3.5.3
 seaborn                   0.12.2
 ```
-### 2. References
+### 3. Usage
+#### Step 1
+Download and unzip the dataset and source code.
+#### Step 2
+Install all dependencies that meet the required versions.
+#### Step 3
+Use the following commands to train and test our proposed protein secondary result prediction model.
+```
+python Q3_P.py
+```
+### 4. References
 [1]Hanson, J., et al., Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 2019. 35(14): p. 2403-2410.
 
 [2]Liu, T. and Z. Wang, SOV_refine: A further refined definition of segment overlap score and its significance for protein structure similarity. Source Code for Biology and Medicine, 2018. 13(1).
