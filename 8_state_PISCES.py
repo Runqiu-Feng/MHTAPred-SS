@@ -239,8 +239,8 @@ def test(test_X0,test_X1,test_X2,test_Y1,test_Y2,model_PSSP,loss_function):
         loss=loss/len(test_X1)
         loss1=loss1/len(test_X1)
         loss2=loss2/(len(test_X1)-no_rasa_num)
-        f_sov = open("sov_Q8_Eval.txt")             # 返回一个文件对象  
-        line = f_sov.readline()             # 调用文件的 readline()方法  
+        f_sov = open("sov_Q8_Eval.txt")
+        line = f_sov.readline()
         sov_score=line.strip()
     return Q8_score, QG_score, QH_score, QI_score, QT_score, QE_score, QB_score, QS_score,QL_score,loss,loss1,loss2,sov_score
 #Model training
