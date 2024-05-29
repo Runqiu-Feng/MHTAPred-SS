@@ -22,7 +22,12 @@ Download and unzip the dataset and source code.
 #### Step 2
 Install all dependencies that meet the required versions.
 #### Step 3
-Use the following commands to train and test our proposed protein secondary result prediction model.
+Preprocess the raw data and organize them into .h5 files containing PSSM, HMM, physicochemical properties and embedded features. The specific commands are as follows:
+```
+python dataprocess
+```
+#### Step 4
+Use the following commands to train and test our proposed protein secondary result prediction model:
 ```
 python 3_state_PISCES.py
 python 8_state_PISCES.py
