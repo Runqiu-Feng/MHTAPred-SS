@@ -1,8 +1,8 @@
 # MTL-STA: Multi-task learning method for protein secondary structure prediction based on strong targeted autoencoder
 ### 1. Introduction
 We propose a deep learning method MTL-STA for protein secondary structure prediction, which consists of two parts: 
-· The STA model uses the attention mechanism in sample dimension to generate the strong targeted encoding feature.
-· The PSSP-MTL model can capture global and multi-scale local features, and by using the multi-gate mixture-of-experts structure in the protein secondary structure prediction field for the first time, effective exchange of information between tasks is implemented.
+* The STA model uses the attention mechanism in sample dimension to generate the strong targeted encoding feature.
+* The PSSP-MTL model can capture global and multi-scale local features, and by using the multi-gate mixture-of-experts structure in the protein secondary structure prediction field for the first time, effective exchange of information between tasks is implemented.
 The experimental results show that our method achieves state-of-the-art prediction performance, and it also has significant advantages in single category secondary structure prediction, boundary secondary structure prediction and secondary structure segment distribution prediction.
 ### 2. Dependency
 MTL-STA is developed under Ubuntu environment with:
