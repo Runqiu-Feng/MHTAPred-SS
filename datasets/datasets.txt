@@ -1,2 +1,0 @@
-We uses the same two sets of datasets as DML SS method, and all datasets can be downloaded from the following website:
-https://github.com/fengtuan/DML_SS
