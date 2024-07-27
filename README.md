@@ -7,7 +7,7 @@ Public datasets used in this paper:
 |#Residues|:-:|13718|12217|9049|84119|:-:|:-:|287877|56654|
 
 ### 2. Dependency
-MTL-STA is developed under Ubuntu environment with:
+MHTAPred-SS is developed under Ubuntu environment with:
 ```
 python==3.7.13
 torch==1.13.1
