@@ -1,6 +1,9 @@
 # MHTAPred-SS
 ### 1. Datasets
 Public datasets used in this paper:
+|Types|PISCES|CASP12|CASP13|CASP14|CB513|SPOT_1D_Train|SPOT_1D_valid|TEST2016|TEST2018|
+| :-------------: | :----------: | ------------: || ------------: || ------------: || ------------: || ------------: || ------------: || ------------: || ------------: |
+
 ### 2. Dependency
 MTL-STA is developed under Ubuntu environment with:
 ```
