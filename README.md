@@ -35,10 +35,11 @@ python dataprocess.py
 Use the following commands to train and test our proposed protein secondary result prediction model:
 ```
 cd ./code
-python 3_state_PISCES.py --Training or testing a 3_state protein secondary structure predictor using DS1.
-python 8_state_PISCES.py --Training or testing a 8_state protein secondary structure predictor using DS1.
-python 3_state_SPOT_1D.py --Training or testing a 3_state protein secondary structure predictor using DS2.
-python 8_state_SPOT_1D.py --Training or testing a 8_state protein secondary structure predictor using DS2.
+python 3_state_PISCES.py #Training or testing a 3_state protein secondary structure predictor using DS1.
+python 8_state_PISCES.py #Training or testing a 8_state protein secondary structure predictor using DS1.
+python 3_state_SPOT_1D.py #Training or testing a 3_state protein secondary structure predictor using DS2.
+python 8_state_SPOT_1D.py #Training or testing a 8_state protein secondary structure predictor using DS2.
+#Training or testing a 8_state protein secondary structure predictor using DS2.
 ```
 ### 4. References
 [1] Wei Yang,Yang Liu, and Chunjing Xiao, Deep Metric Learning for Accurate Protein Secondary Structure Prediction,Knowledge-based systems,2022. 242: p. 108356.
