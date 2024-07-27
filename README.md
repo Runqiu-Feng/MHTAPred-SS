@@ -1,5 +1,6 @@
 # MHTAPred-SS
 ### 1. Datasets
+Public datasets used in this paper:
 ### 2. Dependency
 MTL-STA is developed under Ubuntu environment with:
 ```
