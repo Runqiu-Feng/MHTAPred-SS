@@ -1,0 +1,13 @@
+dataprocess.py filter=lfs diff=lfs merge=lfs -text
+CASP14.h5 filter=lfs diff=lfs merge=lfs -text
+CB513.h5 filter=lfs diff=lfs merge=lfs -text
+PISCES_Data.h5 filter=lfs diff=lfs merge=lfs -text
+SPOT_1D_Train.h5 filter=lfs diff=lfs merge=lfs -text
+Test2016.h5 filter=lfs diff=lfs merge=lfs -text
+CASP12.h5 filter=lfs diff=lfs merge=lfs -text
+CASP13.h5 filter=lfs diff=lfs merge=lfs -text
+SPOT_1D_Valid.h5 filter=lfs diff=lfs merge=lfs -text
+Test2018.h5 filter=lfs diff=lfs merge=lfs -text
+datasets.txt filter=lfs diff=lfs merge=lfs -text
+y.pub filter=lfs diff=lfs merge=lfs -text
+y filter=lfs diff=lfs merge=lfs -text
