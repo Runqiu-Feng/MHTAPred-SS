@@ -9,17 +9,17 @@ Public datasets used in this paper:
 ### 2. Dependency
 MTL-STA is developed under Ubuntu environment with:
 ```
-- python==3.7.13
-- torch==1.13.1
-- torchaudio==0.13.1
-- torchvision==0.14.1
-- biopython==1.81
-- h5py==3.8.0
-- numpy==1.21.6
-- pandas==1.3.5
-- tqdm==4.66.1
-- matplotlib==3.5.3
-- seaborn==0.12.2
+python==3.7.13
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
+biopython==1.81
+h5py==3.8.0
+numpy==1.21.6
+pandas==1.3.5
+tqdm==4.66.1
+matplotlib==3.5.3
+seaborn==0.12.2
 ```
 ### 3. Usage
 #### Step 1
