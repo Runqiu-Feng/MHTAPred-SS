@@ -4,7 +4,7 @@ Public datasets used in this paper:
 |Types|PISCES|CASP12|CASP13|CASP14|CB513|SPOT_1D_Train|SPOT_1D_Valid|TEST2016|TEST2018|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |#Sequences|12510|47|41|33|513|10029|983|1213|250|
-|#Residues|:-:|13718|12217|9049|84119|:-:|:-:|287877|56654|
+|#Residues|3118590|13718|12217|9049|84119|2237264|215803|287877|56654|
 
 ### 2. Dependency
 MHTAPred-SS is developed under Ubuntu environment with:
