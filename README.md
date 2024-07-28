@@ -6,10 +6,10 @@ Public datasets used in this paper:
 |#Sequences|12510|47|41|33|513|10029|983|1213|250|
 |#Residues|3118590|13718|12217|9049|84119|2237264|215803|287877|56654|
 
-The above nine datasets can be downloaded from Google Drive: [https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link](https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link)
+The above nine datasets can be downloaded from Google Drive: [https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link](https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link).
 ### 2. Models
-https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link
-### 2. Dependency
+Our trained model can be downloaded from Google Drive: [https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link](https://drive.google.com/drive/folders/1Ow1eWj3PB6HLuB1Pafs7Yfj9NKNNNC7T?usp=drive_link).
+### 3. Dependency
 MHTAPred-SS is developed under Ubuntu environment with:
 ```
 python==3.7.13
@@ -24,7 +24,7 @@ tqdm==4.66.1
 matplotlib==3.5.3
 seaborn==0.12.2
 ```
-### 3. Usage
+### 4. Usage
 #### Step 1
 Download and unzip the dataset and source code.
 #### Step 2
@@ -43,7 +43,7 @@ python 8_state_PISCES.py #(Training or testing a 8_state protein secondary struc
 python 3_state_SPOT_1D.py #(Training or testing a 3_state protein secondary structure predictor using DS2.)
 python 8_state_SPOT_1D.py #(Training or testing a 8_state protein secondary structure predictor using DS2.)
 ```
-### 4. References
+### 5. References
 [1] Wei Yang,Yang Liu, and Chunjing Xiao, Deep Metric Learning for Accurate Protein Secondary Structure Prediction,Knowledge-based systems,2022. 242: p. 108356.
 
 [2] Hanson, J., et al., Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 2019. 35(14): p. 2403-2410.
