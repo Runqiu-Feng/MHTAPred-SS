@@ -6,7 +6,7 @@ Public datasets used in this paper:
 |#Sequences|12510|47|41|33|513|10029|983|1213|250|
 |#Residues|3118590|13718|12217|9049|84119|2237264|215803|287877|56654|
 
-The above nine datasets can be downloaded from Google Drive:
+The above nine datasets can be downloaded from Google Drive
 
 [https://drive.google.com/drive/folders/1ViEyNg53_WsO_Ewx0C8_E-OQ5c9s4CQp?usp=sharing](https://drive.google.com/drive/folders/1ViEyNg53_WsO_Ewx0C8_E-OQ5c9s4CQp?usp=sharing).
 ### 2. Models
