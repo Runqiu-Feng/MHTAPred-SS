@@ -1,5 +1,5 @@
 import h5py
-import numpy as n
+import numpy as np
 import torch
 from tqdm import tqdm
 import os
